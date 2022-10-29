@@ -18,7 +18,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
                 {quickReplyButton: {displayText: "Created by ShielD|Shinchan", id: `ShielD|Shinchan`}},
             ]
         })
-        await sleep(60* time)
     }
 }
 handler.command = /^(bugnew)$/i
