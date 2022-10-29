@@ -21,8 +21,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         await sleep(60* time)
     }
 }
-handler.help = handler.alias = ['bugnew']
-handler.tags = ['KHUSUS OWNER']
 handler.command = /^(bugnew)$/i
 
 export default handler
